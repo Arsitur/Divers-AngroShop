@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-		<link rel="icon" href="../Logos/icon-divers.webp">
+		<link rel="icon" href="../assets/Logos/icon-divers.webp">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Divers Angro Shop | Contacte</title>
 
 		<script defer src="../lib/anime.min.js"></script>
-		<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 		<script type="text/javascript">
-  			 (function(){
-   			   emailjs.init("qwM7CxJ6-sge3zJxy");
-   				})();
+			 emailjs.init({
+				 publicKey: "EKrNtEnXOOZc-5N7Y",
+			 });
 		</script>
-		<script defer src="../GeneralCode//general_js.js"></script>
-		<script defer src="contact_us.js"></script>
-		<link rel="stylesheet" href="../GeneralCode/general_css.css">
+		<script defer src="../scripts/general_js.js"></script>
+		<script defer src="../scripts/contact_us.js"></script>
+		<link rel="stylesheet" href="../styles/general_css.css">
 		
-		<link rel="stylesheet" href="contact_us.css"/>
+		<link rel="stylesheet" href="../styles/contact_us.css"/>
 
 		<meta name="description" content="Daca ai orice intrebare sau nelamurire cu privire la produsele noastre sau serviciile noastre, nu ezita sa ne contactezi! Echipa Divers Angro Shop este mereu la dispozitia ta, pentru a-ti oferi cele mai bune solutii si pentru a-ti raspunde cat mai rapid posibil.">
 	</head>
@@ -32,30 +32,30 @@
 			<nav class="nav-bar">
 				<div class="nav-content">
 					<div class="nav-logo">
-						<a href="../MainPage/index.html">
-							<img class="nav-logo-img" src="../Logos/divers.webp" alt="Divers Logo">
+						<a href="../index.html">
+							<img class="nav-logo-img" src="../assets/Logos/divers.webp" alt="Divers Logo">
 						</a>
 					</div>
 					<div class="nav-links">
-						<a href="../MainPage/index.html">
+						<a href="../index.html">
 							<div class="nav-link">
 								<h2 class="nav-text">Produse</h2>
 								<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" height="512" width="512" viewBox="0 0 512 512"><g class="nc-icon-wrapper"><path d="M454.65 169.4A31.82 31.82 0 0 0 432 160h-64v-16a112 112 0 0 0-224 0v16H80a32 32 0 0 0-32 32v216c0 39 33 72 72 72h272a72.22 72.22 0 0 0 50.48-20.55 69.48 69.48 0 0 0 21.52-50.2V192a31.75 31.75 0 0 0-9.35-22.6zM332.49 274l-89.6 112a16 16 0 0 1-12.23 6h-.26a16 16 0 0 1-12.16-5.6l-38.4-44.88a16 16 0 1 1 24.32-20.8L230 350.91 307.51 254a16 16 0 0 1 25 20zM336 160H176v-16a80 80 0 0 1 160 0z"></path></g></svg>
 							</div>
 						</a>
-						<a href="../About_Us/about_us.html">
+						<a href="about_us.html">
 							<div class="nav-link">
 								<h2 class="nav-text">Despre Noi</h2>
 								<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><g class="nc-icon-wrapper"><path d="M256 56C145.72 56 56 145.72 56 256s89.72 200 200 200 200-89.72 200-200S366.28 56 256 56zm0 82a26 26 0 1 1-26 26 26 26 0 0 1 26-26zm48 226h-88a16 16 0 0 1 0-32h28v-88h-16a16 16 0 0 1 0-32h32a16 16 0 0 1 16 16v104h28a16 16 0 0 1 0 32z"></path></g></svg>
 							</div>
 						</a>
-						<a href="../Contact_Us/contact_us.html">
+						<a href="contact_us.html">
 							<div class="nav-link">
 								<h2 id="current-page" class="nav-text">Contacte</h2>
 								<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><g  class="nc-icon-wrapper"><path d="M336 256c-20.56 0-40.44-9.18-56-25.84-15.13-16.25-24.37-37.92-26-61-1.74-24.62 5.77-47.26 21.14-63.76S312 80 336 80c23.83 0 45.38 9.06 60.7 25.52 15.47 16.62 23 39.22 21.26 63.63-1.67 23.11-10.9 44.77-26 61C376.44 246.82 356.57 256 336 256zm66-88z"></path><path d="M467.83 432H204.18a27.71 27.71 0 0 1-22-10.67 30.22 30.22 0 0 1-5.26-25.79c8.42-33.81 29.28-61.85 60.32-81.08C264.79 297.4 299.86 288 336 288c36.85 0 71 9 98.71 26.05 31.11 19.13 52 47.33 60.38 81.55a30.27 30.27 0 0 1-5.32 25.78A27.68 27.68 0 0 1 467.83 432z"></path><path d="M147 260c-35.19 0-66.13-32.72-69-72.93-1.42-20.6 5-39.65 18-53.62 12.86-13.83 31-21.45 51-21.45s38 7.66 50.93 21.57c13.1 14.08 19.5 33.09 18 53.52-2.87 40.2-33.8 72.91-68.93 72.91z"></path><path d="M212.66 291.45c-17.59-8.6-40.42-12.9-65.65-12.9-29.46 0-58.07 7.68-80.57 21.62-25.51 15.83-42.67 38.88-49.6 66.71a27.39 27.39 0 0 0 4.79 23.36A25.32 25.32 0 0 0 41.72 400h111a8 8 0 0 0 7.87-6.57c.11-.63.25-1.26.41-1.88 8.48-34.06 28.35-62.84 57.71-83.82a8 8 0 0 0-.63-13.39c-1.57-.92-3.37-1.89-5.42-2.89z"></path></g></svg>
 							</div>
 						</a>
-						<a href="../News/stiri.html">
+						<a href="stiri.html">
 							<div class="nav-link">
 								<h2 class="nav-text">Știri</h2>
 								<svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><g class="nc-icon-wrapper"><path d="M439.91 112h-23.82a.09.09 0 0 0-.09.09V416a32 32 0 0 0 32 32 32 32 0 0 0 32-32V152.09A40.09 40.09 0 0 0 439.91 112z"></path><path d="M384 416V72a40 40 0 0 0-40-40H72a40 40 0 0 0-40 40v352a56 56 0 0 0 56 56h342.85a1.14 1.14 0 0 0 1.15-1.15 1.14 1.14 0 0 0-.85-1.1A64.11 64.11 0 0 1 384 416zM96 128a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v64a16 16 0 0 1-16 16h-64a16 16 0 0 1-16-16zm208 272H112.45c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 112 368h191.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 400zm0-64H112.45c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 112 304h191.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 336zm0-64H112.45c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 112 240h191.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 272zm0-64h-63.55c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 240 176h63.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 208zm0-64h-63.55c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 240 112h63.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 144z"></path></g></svg>
@@ -72,28 +72,28 @@
 			<div class="tablet-nav">
 					<div class="tablet-nav-content">
 						<div class="tablet-nav-logo-div">
-							<img class="tablet-nav-logo" src="../Logos/icon-divers-transparent.webp" alt="iconita divers">
+							<img class="tablet-nav-logo" src="../assets/Logos/icon-divers-transparent.webp" alt="iconita divers">
 						</div>
 						<div class="tablet-nav-links">
-							<a href="../MainPage/index.html">
+							<a href="../index.html">
 								<div class="tablet-nav-link">
 									<svg class="tablet-nav-icon" xmlns="http://www.w3.org/2000/svg" height="512" width="512" viewBox="0 0 512 512"><g class="nc-icon-wrapper"><path d="M454.65 169.4A31.82 31.82 0 0 0 432 160h-64v-16a112 112 0 0 0-224 0v16H80a32 32 0 0 0-32 32v216c0 39 33 72 72 72h272a72.22 72.22 0 0 0 50.48-20.55 69.48 69.48 0 0 0 21.52-50.2V192a31.75 31.75 0 0 0-9.35-22.6zM332.49 274l-89.6 112a16 16 0 0 1-12.23 6h-.26a16 16 0 0 1-12.16-5.6l-38.4-44.88a16 16 0 1 1 24.32-20.8L230 350.91 307.51 254a16 16 0 0 1 25 20zM336 160H176v-16a80 80 0 0 1 160 0z"></path></g></svg>
 									<h2 class="tablet-nav-text">Produse</h2>
 								</div>
 							</a>
-							<a href="../About_Us/about_us.html">
+							<a href="about_us.html">
 								<div class="tablet-nav-link">
 									<svg class="tablet-nav-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><g class="nc-icon-wrapper"><path d="M256 56C145.72 56 56 145.72 56 256s89.72 200 200 200 200-89.72 200-200S366.28 56 256 56zm0 82a26 26 0 1 1-26 26 26 26 0 0 1 26-26zm48 226h-88a16 16 0 0 1 0-32h28v-88h-16a16 16 0 0 1 0-32h32a16 16 0 0 1 16 16v104h28a16 16 0 0 1 0 32z"></path></g></svg>
 									<h2 class="tablet-nav-text">Despre Noi</h2>
 								</div>
 							</a>
-							<a href="../Contact_Us/contact_us.html">
+							<a href="contact_us.html">
 								<div class="tablet-nav-link" id="current-tablet-link">
 									<svg class="tablet-nav-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><g  class="nc-icon-wrapper"><path d="M336 256c-20.56 0-40.44-9.18-56-25.84-15.13-16.25-24.37-37.92-26-61-1.74-24.62 5.77-47.26 21.14-63.76S312 80 336 80c23.83 0 45.38 9.06 60.7 25.52 15.47 16.62 23 39.22 21.26 63.63-1.67 23.11-10.9 44.77-26 61C376.44 246.82 356.57 256 336 256zm66-88z"></path><path d="M467.83 432H204.18a27.71 27.71 0 0 1-22-10.67 30.22 30.22 0 0 1-5.26-25.79c8.42-33.81 29.28-61.85 60.32-81.08C264.79 297.4 299.86 288 336 288c36.85 0 71 9 98.71 26.05 31.11 19.13 52 47.33 60.38 81.55a30.27 30.27 0 0 1-5.32 25.78A27.68 27.68 0 0 1 467.83 432z"></path><path d="M147 260c-35.19 0-66.13-32.72-69-72.93-1.42-20.6 5-39.65 18-53.62 12.86-13.83 31-21.45 51-21.45s38 7.66 50.93 21.57c13.1 14.08 19.5 33.09 18 53.52-2.87 40.2-33.8 72.91-68.93 72.91z"></path><path d="M212.66 291.45c-17.59-8.6-40.42-12.9-65.65-12.9-29.46 0-58.07 7.68-80.57 21.62-25.51 15.83-42.67 38.88-49.6 66.71a27.39 27.39 0 0 0 4.79 23.36A25.32 25.32 0 0 0 41.72 400h111a8 8 0 0 0 7.87-6.57c.11-.63.25-1.26.41-1.88 8.48-34.06 28.35-62.84 57.71-83.82a8 8 0 0 0-.63-13.39c-1.57-.92-3.37-1.89-5.42-2.89z"></path></g></svg>
 									<h2 class="tablet-nav-text">Contacte</h2>
 								</div>
 							</a>
-							<a href="../News/stiri.html">
+							<a href="stiri.html">
 								<div class="tablet-nav-link">
 									<svg class="tablet-nav-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><g class="nc-icon-wrapper"><path d="M439.91 112h-23.82a.09.09 0 0 0-.09.09V416a32 32 0 0 0 32 32 32 32 0 0 0 32-32V152.09A40.09 40.09 0 0 0 439.91 112z"></path><path d="M384 416V72a40 40 0 0 0-40-40H72a40 40 0 0 0-40 40v352a56 56 0 0 0 56 56h342.85a1.14 1.14 0 0 0 1.15-1.15 1.14 1.14 0 0 0-.85-1.1A64.11 64.11 0 0 1 384 416zM96 128a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v64a16 16 0 0 1-16 16h-64a16 16 0 0 1-16-16zm208 272H112.45c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 112 368h191.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 400zm0-64H112.45c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 112 304h191.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 336zm0-64H112.45c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 112 240h191.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 272zm0-64h-63.55c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 240 176h63.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 208zm0-64h-63.55c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 240 112h63.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 144z"></path></g></svg>
 									<h2 class="tablet-nav-text">Știri</h2>
@@ -105,25 +105,25 @@
 				</div>
 				<div class="phone-nav">
 					<div class="phone-nav-links">
-						<a class="phone-nav-link" href="../MainPage/index.html">
+						<a class="phone-nav-link" href="../index.html">
 							<div class="phone-nav-link">
 								<svg class="phone-nav-icon" xmlns="http://www.w3.org/2000/svg" height="512" width="512" viewBox="0 0 512 512"><g class="nc-icon-wrapper"><path d="M454.65 169.4A31.82 31.82 0 0 0 432 160h-64v-16a112 112 0 0 0-224 0v16H80a32 32 0 0 0-32 32v216c0 39 33 72 72 72h272a72.22 72.22 0 0 0 50.48-20.55 69.48 69.48 0 0 0 21.52-50.2V192a31.75 31.75 0 0 0-9.35-22.6zM332.49 274l-89.6 112a16 16 0 0 1-12.23 6h-.26a16 16 0 0 1-12.16-5.6l-38.4-44.88a16 16 0 1 1 24.32-20.8L230 350.91 307.51 254a16 16 0 0 1 25 20zM336 160H176v-16a80 80 0 0 1 160 0z"></path></g></svg>
 								<h2 class="phone-nav-text">Produse</h2>
 							</div>
 						</a>
-						<a class="phone-nav-link" href="../About_Us/about_us.html">
+						<a class="phone-nav-link" href="about_us.html">
 							<div class="phone-nav-link">
 								<svg class="phone-nav-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><g class="nc-icon-wrapper"><path d="M256 56C145.72 56 56 145.72 56 256s89.72 200 200 200 200-89.72 200-200S366.28 56 256 56zm0 82a26 26 0 1 1-26 26 26 26 0 0 1 26-26zm48 226h-88a16 16 0 0 1 0-32h28v-88h-16a16 16 0 0 1 0-32h32a16 16 0 0 1 16 16v104h28a16 16 0 0 1 0 32z"></path></g></svg>
 								<h2 class="phone-nav-text">Despre Noi</h2>
 							</div>
 						</a>
-						<a class="phone-nav-link" id="current-phone-nav-link" href="../Contact_Us/contact_us.html">
+						<a class="phone-nav-link" id="current-phone-nav-link" href="contact_us.html">
 							<div id="current-phone-nav-link" class="phone-nav-link">
 								<svg class="phone-nav-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><g  class="nc-icon-wrapper"><path d="M336 256c-20.56 0-40.44-9.18-56-25.84-15.13-16.25-24.37-37.92-26-61-1.74-24.62 5.77-47.26 21.14-63.76S312 80 336 80c23.83 0 45.38 9.06 60.7 25.52 15.47 16.62 23 39.22 21.26 63.63-1.67 23.11-10.9 44.77-26 61C376.44 246.82 356.57 256 336 256zm66-88z"></path><path d="M467.83 432H204.18a27.71 27.71 0 0 1-22-10.67 30.22 30.22 0 0 1-5.26-25.79c8.42-33.81 29.28-61.85 60.32-81.08C264.79 297.4 299.86 288 336 288c36.85 0 71 9 98.71 26.05 31.11 19.13 52 47.33 60.38 81.55a30.27 30.27 0 0 1-5.32 25.78A27.68 27.68 0 0 1 467.83 432z"></path><path d="M147 260c-35.19 0-66.13-32.72-69-72.93-1.42-20.6 5-39.65 18-53.62 12.86-13.83 31-21.45 51-21.45s38 7.66 50.93 21.57c13.1 14.08 19.5 33.09 18 53.52-2.87 40.2-33.8 72.91-68.93 72.91z"></path><path d="M212.66 291.45c-17.59-8.6-40.42-12.9-65.65-12.9-29.46 0-58.07 7.68-80.57 21.62-25.51 15.83-42.67 38.88-49.6 66.71a27.39 27.39 0 0 0 4.79 23.36A25.32 25.32 0 0 0 41.72 400h111a8 8 0 0 0 7.87-6.57c.11-.63.25-1.26.41-1.88 8.48-34.06 28.35-62.84 57.71-83.82a8 8 0 0 0-.63-13.39c-1.57-.92-3.37-1.89-5.42-2.89z"></path></g></svg>
 								<h2 class="phone-nav-text">Contacte</h2>
 							</div>
 						</a>
-						<a class="phone-nav-link" href="../News/stiri.html">
+						<a class="phone-nav-link" href="stiri.html">
 							<div class="phone-nav-link">
 								<svg class="phone-nav-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><g class="nc-icon-wrapper"><path d="M439.91 112h-23.82a.09.09 0 0 0-.09.09V416a32 32 0 0 0 32 32 32 32 0 0 0 32-32V152.09A40.09 40.09 0 0 0 439.91 112z"></path><path d="M384 416V72a40 40 0 0 0-40-40H72a40 40 0 0 0-40 40v352a56 56 0 0 0 56 56h342.85a1.14 1.14 0 0 0 1.15-1.15 1.14 1.14 0 0 0-.85-1.1A64.11 64.11 0 0 1 384 416zM96 128a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v64a16 16 0 0 1-16 16h-64a16 16 0 0 1-16-16zm208 272H112.45c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 112 368h191.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 400zm0-64H112.45c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 112 304h191.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 336zm0-64H112.45c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 112 240h191.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 272zm0-64h-63.55c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 240 176h63.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 208zm0-64h-63.55c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 240 112h63.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 144z"></path></g></svg>
 								<h2 class="phone-nav-text">Știri</h2>
@@ -236,7 +236,7 @@
 						<h2 class="header oneliner-header">Intrebari Frecvente</h2>
 					</div>
 					<div class="description-div">
-						<p class="description"><span class="company-name">Divers Angro Shop</span> Am compilat o listă de întrebări frecvente pentru a vă răspunde la orice întrebări pe care le puteți avea. Pentru alte neclaritați nu ezitați să ne contactați.</p>
+						<p class="description">Am compilat o listă de întrebări frecvente pentru a vă răspunde la orice întrebări pe care le puteți avea. Pentru alte neclaritați nu ezitați să ne contactați.</p>
 					</div>
 				</div>
 				<div class="faqs">
@@ -326,7 +326,7 @@
 							<p class="faq-description">
 								Puteți lua legătura cu noi prin intermediul:<br>
 								Site-ului nostru - <a style="color: var(--fourthGreen); text-decoration: underline;" href="https://diversshop.netlify.app/">diversshop.netlify.com</a><br>
-								Prin Email - <a style="color: var(--fourthGreen); text-decoration: underline;" href="mailto:arsitur4@gmail.com">diverslv20@gmail.com</a><br>
+								Prin Email - <a style="color: var(--fourthGreen); text-decoration: underline;" href="mailto:diverslv20@gmail.com">diverslv20@gmail.com</a><br>
 								Prin Telefon - <a style="color: var(--fourthGreen); text-decoration: underline;" href="tel:+373 67198564">+37368960404</a><br>
 								Prin Facebook - <a style="color: var(--fourthGreen); text-decoration: underline;" target="_blank" href="https://www.facebook.com/Divers-Angro-Shop-100710148355685/">Divers Facebook</a>
 							</p>
@@ -360,8 +360,8 @@
 					</div>
 					
 					<div class="contact-icons">
-						<a href="mailto:arsitur4@gmail.com">
-							<svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><g class="nc-icon-wrapper"><title>arsitur4@gmail.com</title><path d="M424 80H88a56.06 56.06 0 0 0-56 56v240a56.06 56.06 0 0 0 56 56h336a56.06 56.06 0 0 0 56-56V136a56.06 56.06 0 0 0-56-56zm-14.18 92.63l-144 112a16 16 0 0 1-19.64 0l-144-112a16 16 0 1 1 19.64-25.26L256 251.73l134.18-104.36a16 16 0 0 1 19.64 25.26z"></path></g></svg>
+						<a href="mailto:diverslv20@gmail.com">
+							<svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><g class="nc-icon-wrapper"><title>diverslv20@gmail.com</title><path d="M424 80H88a56.06 56.06 0 0 0-56 56v240a56.06 56.06 0 0 0 56 56h336a56.06 56.06 0 0 0 56-56V136a56.06 56.06 0 0 0-56-56zm-14.18 92.63l-144 112a16 16 0 0 1-19.64 0l-144-112a16 16 0 1 1 19.64-25.26L256 251.73l134.18-104.36a16 16 0 0 1 19.64 25.26z"></path></g></svg>
 						</a>
 						<a target="_blank" href="https://www.facebook.com/profile.php?id=100071118882630">
 							<svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><g class="nc-icon-wrapper"><title>Facebook</title><path d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16 24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31z" fill-rule="evenodd"></path></g></svg>
